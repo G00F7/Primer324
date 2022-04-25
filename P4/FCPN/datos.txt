@@ -1,0 +1,47 @@
+tabla inscripcion(ciest, sigla, noat1, nota2, nota3, notafinal)
+insert into inscripcion values("10000", "INF-111", 25, 20, 15, 60);
+insert into inscripcion values("10002", "INF-111", 15, 20, 15, 50);
+insert into inscripcion values("10003", "INF-111", 30, 20, 20, 70);
+insert into inscripcion values("10004", "INF-111", 20, 25, 30, 75);
+
+insert into inscripcion values("10001", "INF-111", 22, 25, 18, 65);
+
+tabla persona(ci, nombre, apellido, fechanac, departamento)
+insert into persona values("10000", "Pepito", "Rosales", '1991-02-13', "02");
+insert into persona values("10001", "Daniela", "Colque", '1994-06-23', "04");
+insert into persona values("10002", "Jesus", "Condori", '1996-08-20', "03");
+insert into persona values("10003", "Armando", "Quispe", '1992-07-12', "02");
+insert into persona values("10004", "Miguel", "Mamani", '1995-08-15', "04");
+
+insert into persona values("10123", "Nicolas", "Quenta", '1970-03-14', "03");
+
+insert into persona values("10200", "Mario", "Rodriguez", '1999-06-19', "06");
+
+tabla Rol
+inset into rol values ("1", "Director");
+inset into rol values ("3", "Estudiante");
+
+tabla usuario(ci, user, password, idrol)
+insert into usuario values("10000", "PRosales","PRosales", 3);
+insert into usuario values("10001", "DColque", "DColque", 3);
+insert into usuario values("10002", "JCondori", "JCondori", 3);
+insert into usuario values("10003", "AQuispe", AQuispe", 3);
+insert into usuario values("10004", "MMamani", "MMamani", 3);
+insert into usuario values("10123", "NQuenta", "NQuenta", 1);
+
+insert into usuario values("10200", "MRodriguez", "MRodriguez", "3", "1");
+
+insert into carrera ("1", "Física");
+insert into carrera ("2", "Infromática");
+insert into carrera ("3", "Matemática");
+
+
+if(){
+    echo '<link rel="stylesheet" type="text/css" href="../css/style1.css"/>';
+}elseif(){
+    echo '<link rel="stylesheet" type="text/css" href="../css/style2.css"/>';
+}else{
+    echo '<link rel="stylesheet" type="text/css" href="../css/style3.css"/>';
+}
+
+
